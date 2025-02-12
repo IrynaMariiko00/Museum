@@ -1,0 +1,2 @@
+const e=document.querySelectorAll(".navigation-btn"),t=document.querySelector(".imgs-slides"),s=s=>{let a=document.querySelector(".slide").offsetWidth;t.style.marginLeft=`-${s*a}px`,e.forEach((e,t)=>{t===s?e.classList.add("active"):e.classList.remove("active")})};e.forEach(e=>{e.addEventListener("click",()=>{s(parseInt(e.getAttribute("data-slide")))})}),window.addEventListener("load",()=>{s(0),e[0].classList.add("active")});
+//# sourceMappingURL=index.881baa42.js.map
